@@ -7,9 +7,8 @@ export default function Navbar() {
       <div className="space-x-4">
         <Link to="/">Accueil</Link>
         <Link to="/products">Boutique</Link>
-        <Link to="/cart">Panier</Link>
-        <Link to="/compte">Compte</Link>
         <Link to="/contact">Contact</Link>
+        
         
       </div>
     </nav>
