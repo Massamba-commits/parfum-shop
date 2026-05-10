@@ -110,10 +110,7 @@ export default function Home() {
                 <p className="text-gray-400 text-sm mt-1 line-clamp-2">
                   {product.description}
                 </p>
-                <div className="flex items-center justify-between mt-4">
-                  <span className="text-pink-600 font-extrabold text-xl">
-                    {product.price} <span className="text-sm font-semibold">FCFA</span>
-                  </span>
+                <div className="mt-3 flex items-center justify-between">
                   <div className="flex text-yellow-400 text-sm">
                     ★★★★★
                   </div>
@@ -122,7 +119,7 @@ export default function Home() {
                   onClick={() => navigate('/products')}
                   className="mt-4 w-full bg-pink-500 text-white py-2.5 rounded-xl hover:bg-pink-600 transition font-semibold tracking-wide shadow hover:shadow-pink-300"
                 >
-                  Acheter
+                  Voir le produit
                 </button>
               </div>
             </div>
@@ -134,7 +131,7 @@ export default function Home() {
             onClick={() => navigate('/products')}
             className="border-2 border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white font-bold px-10 py-3 rounded-full transition-all"
           >
-            Voir tous les produits →
+           Voir tous les produits →
           </button>
         </div>
       </section>
