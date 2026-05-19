@@ -33,7 +33,7 @@ export function PanierProvider({ children }: { children: ReactNode }) {
       return []
     }
   })
-  // ✅ 2. Sauvegarder dans localStorage à chaque changement
+  //  2. Sauvegarder dans localStorage à chaque changement
   useEffect(() => {
     localStorage.setItem('amko_panier', JSON.stringify(items))
   }, [items])
