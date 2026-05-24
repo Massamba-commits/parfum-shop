@@ -238,7 +238,7 @@ export default function Shop() {
             placeholder="Votre adresse email"
             className="flex-1 min-w-0 py-3 px-5 rounded-full bg-white/10 border border-pink-400/40 text-white placeholder-pink-300 focus:outline-none focus:ring-2 focus:ring-pink-400"
           />
-          <button className="bg-pink-500 hover:bg-pink-400 text-white font-bold px-6 py-3 rounded-full transition whitespace-nowrap">
+          <button onClick={() => {}} className="bg-pink-500 hover:bg-pink-400 text-white font-bold px-6 py-3 rounded-full transition whitespace-nowrap">
             S'inscrire
           </button>
         </div>
